@@ -1,0 +1,22 @@
+{
+  "name": "debug-symbol-fetcher",
+  "version": "3.0.1",
+  "description": "Install brave debug symbols using npm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brave/debug-symbol-fetcher"
+  },
+  "scripts": {
+    "postinstall": "./fetch.sh"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "author": "Ivo Georgiev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brave/debug-symbol-fetcher/issues"
+  },
+  "homepage": "https://github.com/brave/debug-symbol-fetcher"
+}
