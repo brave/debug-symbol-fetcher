@@ -7,6 +7,8 @@ CORE_URL="https://github.com/brave/brave-browser-builds/releases/download"
 MUON_VERSIONS="${MUON_VERSIONS:-}"
 CORE_VERSIONS="${CORE_VERSIONS:-}"
 
+FORCE_UNZIP="${FORCE_UNZIP:-}"
+
 if [ -z "$MUON_VERSIONS" ] && [ -z "$CORE_VERSIONS" ]; then
     echo "Error, missing MUON_VERSIONS or CORE_VERSIONS environment variables. Please set."
     exit 1
