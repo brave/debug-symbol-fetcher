@@ -1,6 +1,6 @@
 {
   "name": "debug-symbol-fetcher",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Install brave debug symbols using npm",
   "repository": {
     "type": "git",
