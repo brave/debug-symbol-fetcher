@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 set -eux
 
+if [ -f "$(which bsdtar)" -a -f "$(which unzip)" ]; then
+    echo "Cannot find either bsdtar or unzip commands, at least 1 must be installed, exiting..."
+    exit 1
+fi
+
 MUON_URL="https://github.com/brave/muon/releases/download"
 CORE_URL="https://github.com/brave/brave-browser/releases/download"
 
